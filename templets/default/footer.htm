@@ -1,0 +1,34 @@
+<div class="foot">
+  <div class="foot_cio"><a href="javascript:scroll(0,0)"  title="返回"><img src="/skin/images/topfh.jpg" width="59" height="59" alt="返回" /></a></div>
+  <div class="foot_mid">
+    <div class="logofoot"><a href="/" title=""><img  src="/skin/images/slwy.jpg" alt="" width="200" height="151" /></a></div>
+    <div class="claft">
+      <ul>
+        {dede:channelartlist typeid='top' row=3}
+        <li>
+          <h4><a href="{dede:field name='typeurl'/}" title="{dede:field name='typename'/}">{dede:field name='typename'/}</a></h4>
+          <p> {dede:channel type='son' noself='yes'} <a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a><br />
+            {/dede:channel} </p>
+        </li>
+        {/dede:channelartlist}
+        <li>
+          <h4><a href="/a/hezuohuoban/" title="{dede:field name='typename'/}">融资租赁知识</a></h4>
+          <p> <a href="/a/lianxiwomen/" title="联系我们">联系我们</a><br/>
+            <a href="/a/chengpinyingcai/" title="诚聘英才">诚聘英才</a><br/>
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="telrightf"> <img src="/skin/images/fuwr.jpg" width="248" height="70" alt="二维码" />
+      <ul>
+        <h4>友情链接：</h4>
+        {dede:flink /}
+      </ul>
+    </div>
+    <div class="c"></div>
+  </div>
+  <div class="foot_nav">
+    <div class="foot_nav_left">  <a href="/a/lianxiwomen/" title="联系我们">联系我们</a>  |  <a href="/a/chengpinyingcai/" title="人才招聘">人才招聘</a>  |  <a href="#" title="站内地图">站内地图</a></div>
+    <div class="foot_nav_right">{dede:global.cfg_powerby/}  <a href="http://www.miitbeian.gov.cn/" title="{dede:global.cfg_beian/}" target="_blank">ICP备案编号： {dede:global.cfg_beian/}</a>　 </div>
+  </div>
+</div>

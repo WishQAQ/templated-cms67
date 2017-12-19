@@ -1,0 +1,51 @@
+
+/* CSS Document */
+/*分页*/
+#pageGro {
+	width: 400px;
+	height: 25px;
+	margin: 0px auto 15px;
+	padding-top: 15px;
+}
+#pageGro div, #pageGro div ul li {
+	font-size: 12px;
+	color: #999;
+	line-height: 23px;
+	float: left;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+#pageGro div ul li {
+	width: 22px;
+	text-align: center;
+	border: 1px solid #999;
+	cursor: pointer;
+	height: auto;
+}
+#pageGro div ul li.on {
+	color: #fff;
+	background: #3c90d9;
+	border: 1px solid #3c90d9;
+	height: auto;
+}
+#pageGro .pageUp, #pageGro .pageDown {
+	width: 63px;
+	border: 1px solid #999;
+	cursor: pointer;
+}
+#pageGro .pageUp {
+	text-indent: 23px;
+	background: url(/skin/images/pageUp.png) 5px 7px no-repeat;
+}
+#pageGro .pageDown {
+	text-indent: 5px;
+	background: url(/skin/images/pageDown.png) 46px 6px no-repeat;
+	text-align: left;
+}
+#pageGro .pageshu {
+	width: auto;
+	padding: 0px 5px;
+}
+.cb {
+	clear: both
+}
